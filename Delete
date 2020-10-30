@@ -1,0 +1,12 @@
+mysql> delete from employee where emp_id=234;
+Query OK, 1 row affected (0.13 sec)
+mysql> select * from employee;
++--------+----------+-----------+
+| emp_id | emp_name | emp_ph_no |
++--------+----------+-----------+
+|    105 | ravi     | 723456    |
+|    106 | sari     | 234567    |
+|    107 | raji     | 7653456   |
++--------+----------+-----------+
+3 rows in set (0.00 sec)
+
